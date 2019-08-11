@@ -1,0 +1,77 @@
+version: '3.4'
+
+services:
+
+  sibila:
+    build: .
+    image: webapp:tag
+    container_name: sibila
+    environment:
+      - COMPOSE_PROJECT_NAME=sibila
+    networks:
+      dockernet:
+        ipv4_address: 172.22.0.101
+
+  db:
+    image: mysql:latest
+    container_name: db
+    command: --default-authentication-plugin=mysql_native_password --character-set-server=utf8 --loose-local-infile=1
+    restart: always
+    volumes:
+      - db-data:/var/lib/mysql
+    networks:
+      dockernet:
+        ipv4_address: 172.22.0.100
+    environment:
+      - COMPOSE_PROJECT_NAME=sibila
+
+
+  adminer:
+    image: adminer
+    container_name: adminer
+    restart: always
+    environment:
+      - ADMINER_DEFAULT_SERVER=db
+      - COMPOSE_PROJECT_NAME=sibila
+    ports:
+      - 8888:8080
+    networks:
+      dockernet:
+        ipv4_address: 172.22.0.101
+    depends_on:
+      - db
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:latest
+    container_name: elasticsearch
+    ports: ['9200:9200']
+    networks:
+      dockernet:
+        ipv4_address: 172.22.0.100
+    volumes:
+      - 'es_data:/usr/share/elasticsearch/data'
+    healthcheck:
+      test: curl --cacert /usr/share/elasticsearch/config/certs/ca/ca.crt -s https://localhost:9200 >/dev/null; if [[ $$? == 52 ]]; then echo 0; else echo 1; fi
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+
+
+
+
+volumes:
+  db-data:
+
+
+networks:
+  dockernet:
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.22.0.0/16
+
+
+#secrets:
+#  my_secret:
+#    file: ./.env

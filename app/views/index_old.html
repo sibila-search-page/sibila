@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<title>Sibila Search</title>
+		{% include 'layout/head/meta.html' %}
+		{% include 'layout/head/scripts.html' %}
+		{% include 'layout/head/landinghome.html' %}
+	</head>
+
+	<body>
+		<div class="vertical-center" title="{{index[0].description}}" style="height: 100px;" >
+			<div class="container" id="supercaja" style="height: 100px;">
+				<div class="row" style="height: 100px;">
+						<div class="col-centered" style="height: 100px;">
+							<div id="custom-search-input" style="height: 100px;">
+									<div class="input-group col-xl-12" style="height: 100px;" >
+										{% include 'searchengine/searchform.html' %}
+									</div>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>

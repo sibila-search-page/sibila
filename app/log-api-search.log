@@ -1,0 +1,339 @@
+[2019-08-10 13:58:47,608] - [DEBUG] [app.py:20] [<module>] - [Debug FILE]
+[2019-08-10 13:58:47,687] - [DEBUG] [app.py:20] [<module>] - [Debug FILE]
+[2019-08-10 13:58:47,712] - [DEBUG] [app.py:20] [<module>] - [Debug FILE]
+[2019-08-10 14:00:47,716] - [INFO] [app.py:28] [hello] - [raiz]
+[2019-08-10 14:00:47,964] - [INFO] [app.py:35] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 14:00:47,970] - [ERROR] [app.py:1891] [log_exception] - [Exception on /views/index.html [GET]]
+Traceback (most recent call last):
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/app/app.py", line 39, in default_view
+    vacio = json.loads('[]')
+NameError: name 'json' is not defined
+[2019-08-10 15:38:24,184] - [INFO] [app.py:35] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 15:38:24,186] - [ERROR] [app.py:1891] [log_exception] - [Exception on /views/index.html [GET]]
+Traceback (most recent call last):
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/app/app.py", line 39, in default_view
+    vacio = json.loads('[]')
+NameError: name 'json' is not defined
+[2019-08-10 15:39:48,625] - [INFO] [app.py:35] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 15:39:48,626] - [ERROR] [app.py:1891] [log_exception] - [Exception on /views/index.html [GET]]
+Traceback (most recent call last):
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/app/app.py", line 43, in default_view
+    templateLoader = jinja2.FileSystemLoader( searchpath=['/app/views/'] )
+NameError: name 'jinja2' is not defined
+[2019-08-10 15:40:08,306] - [INFO] [app.py:35] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 15:40:08,307] - [ERROR] [app.py:1891] [log_exception] - [Exception on /views/index.html [GET]]
+Traceback (most recent call last):
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/app/app.py", line 43, in default_view
+    templateLoader = jinja2.FileSystemLoader( searchpath=['/app/views/'] )
+NameError: name 'jinja2' is not defined
+[2019-08-10 15:40:16,861] - [INFO] [app.py:36] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 15:40:17,020] - [ERROR] [app.py:1891] [log_exception] - [Exception on /views/index.html [GET]]
+Traceback (most recent call last):
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/app/app.py", line 56, in default_view
+    resultados[slim_codename] = get_elemento(slim_codename, busqueda=busqueda, size=size)
+NameError: name 'get_elemento' is not defined
+[2019-08-10 15:41:44,135] - [INFO] [app.py:36] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 15:41:44,230] - [ERROR] [app.py:99] [default_view] - [Cannos open index.html <class 'Exception'> no_busqueda]
+[2019-08-10 15:41:44,231] - [ERROR] [app.py:1891] [log_exception] - [Exception on /views/index.html [GET]]
+Traceback (most recent call last):
+  File "/app/app.py", line 81, in default_view
+    salida = template.render( )
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/app/views/index.html", line 7, in top-level template code
+    {% include 'layout/head/scripts.html' %}
+  File "/app/views/layout/head/scripts.html", line 73, in top-level template code
+    document.getElementById("demo0").setAttribute("href","{{config['VIEW']}}?busqueda="+obj[0].CADENA);
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/jinja2/environment.py", line 411, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'config' is undefined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/app/app.py", line 102, in default_view
+    cmdb       = resultados["cmdb"],
+NameError: name 'resultados' is not defined
+[2019-08-10 16:05:18,511] - [INFO] [app.py:36] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 16:05:18,561] - [ERROR] [app.py:99] [default_view] - [Cannos open index.html <class 'Exception'> no_busqueda]
+[2019-08-10 16:05:18,562] - [ERROR] [app.py:1891] [log_exception] - [Exception on /views/index.html [GET]]
+Traceback (most recent call last):
+  File "/app/app.py", line 81, in default_view
+    salida = template.render( )
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/app/views/index.html", line 7, in top-level template code
+    {% include 'layout/head/scripts.html' %}
+  File "/app/views/layout/head/scripts.html", line 73, in top-level template code
+    document.getElementById("demo0").setAttribute("href","{{config['VIEW']}}?busqueda="+obj[0].CADENA);
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/jinja2/environment.py", line 411, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'config' is undefined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/app/app.py", line 102, in default_view
+    cmdb       = resultados["cmdb"],
+NameError: name 'resultados' is not defined
+[2019-08-10 16:06:39,832] - [INFO] [app.py:36] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 16:06:40,118] - [ERROR] [app.py:100] [default_view] - [Cannos open index.html <class 'Exception'> no_busqueda]
+[2019-08-10 16:06:40,119] - [ERROR] [app.py:1891] [log_exception] - [Exception on /views/index.html [GET]]
+Traceback (most recent call last):
+  File "/app/app.py", line 82, in default_view
+    salida = template.render( )
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/app/views/index.html", line 7, in top-level template code
+    {% include 'layout/head/scripts.html' %}
+  File "/app/views/layout/head/scripts.html", line 73, in top-level template code
+    document.getElementById("demo0").setAttribute("href","{{config['VIEW']}}?busqueda="+obj[0].CADENA);
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/jinja2/environment.py", line 411, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'config' is undefined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/app/app.py", line 103, in default_view
+    cmdb       = resultados["cmdb"],
+KeyError: 'cmdb'
+[2019-08-10 16:08:28,776] - [INFO] [app.py:36] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 16:08:28,854] - [ERROR] [app.py:100] [default_view] - [Cannos open index.html <class 'Exception'> no_busqueda]
+[2019-08-10 16:08:28,859] - [ERROR] [app.py:1891] [log_exception] - [Exception on /views/index.html [GET]]
+Traceback (most recent call last):
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2097, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-08-10 16:08:45,399] - [INFO] [app.py:36] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 16:08:45,451] - [ERROR] [app.py:100] [default_view] - [Cannos open index.html <class 'Exception'> no_busqueda]
+[2019-08-10 16:08:45,455] - [ERROR] [app.py:1891] [log_exception] - [Exception on /views/index.html [GET]]
+Traceback (most recent call last):
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2097, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-08-10 16:09:26,720] - [INFO] [app.py:36] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 16:09:26,777] - [ERROR] [app.py:100] [default_view] - [Cannos open index.html <class 'Exception'> no_busqueda]
+[2019-08-10 16:09:26,777] - [ERROR] [app.py:1891] [log_exception] - [Exception on /views/index.html [GET]]
+Traceback (most recent call last):
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2097, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-08-10 16:10:09,716] - [INFO] [app.py:36] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 16:10:09,759] - [ERROR] [app.py:100] [default_view] - [Cannos open index.html <class 'Exception'> no_busqueda]
+[2019-08-10 16:10:09,759] - [ERROR] [app.py:1891] [log_exception] - [Exception on /views/index.html [GET]]
+Traceback (most recent call last):
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2097, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-08-10 16:10:42,888] - [INFO] [app.py:36] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 16:10:42,937] - [ERROR] [app.py:100] [default_view] - [Cannos open index.html <class 'Exception'> no_busqueda]
+[2019-08-10 16:10:42,937] - [ERROR] [app.py:1891] [log_exception] - [Exception on /views/index.html [GET]]
+Traceback (most recent call last):
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2097, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-08-10 16:10:56,494] - [INFO] [app.py:36] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 16:11:00,781] - [INFO] [app.py:36] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 16:11:21,068] - [INFO] [app.py:36] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 16:11:21,119] - [ERROR] [app.py:100] [default_view] - [Cannos open index.html <class 'Exception'> no_busqueda]
+[2019-08-10 16:11:21,123] - [ERROR] [app.py:1891] [log_exception] - [Exception on /views/index.html [GET]]
+Traceback (most recent call last):
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2097, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-08-10 16:11:48,145] - [INFO] [app.py:36] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 16:13:34,199] - [INFO] [app.py:36] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 16:13:34,261] - [ERROR] [app.py:100] [default_view] - [Cannos open index.html <class 'Exception'> no_busqueda]
+[2019-08-10 16:13:34,261] - [ERROR] [app.py:1891] [log_exception] - [Exception on /views/index.html [GET]]
+Traceback (most recent call last):
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2097, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-08-10 16:14:04,590] - [INFO] [app.py:36] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 16:14:04,627] - [ERROR] [app.py:100] [default_view] - [Cannos open index.html <class 'Exception'> no_busqueda]
+[2019-08-10 16:14:04,628] - [ERROR] [app.py:1891] [log_exception] - [Exception on /views/index.html [GET]]
+Traceback (most recent call last):
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2097, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-08-10 16:14:10,033] - [INFO] [app.py:36] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 16:14:10,089] - [ERROR] [app.py:100] [default_view] - [Cannos open index.html <class 'Exception'> no_busqueda]
+[2019-08-10 16:14:10,090] - [ERROR] [app.py:1891] [log_exception] - [Exception on /views/index.html [GET]]
+Traceback (most recent call last):
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "/home/usuario1/anaconda3/envs/python36/lib/python3.6/site-packages/flask/app.py", line 2097, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+[2019-08-10 16:14:14,030] - [INFO] [app.py:36] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 16:16:01,386] - [INFO] [app.py:36] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 16:17:25,337] - [INFO] [app.py:36] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 16:17:48,802] - [INFO] [app.py:36] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
+[2019-08-10 16:18:15,509] - [INFO] [app.py:36] [default_view] - [127.0.0.1] [index.html] [no_busqueda]
