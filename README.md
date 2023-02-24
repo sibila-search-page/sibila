@@ -13,3 +13,6 @@ Make your own search page. From blind to Sibila. Work in progress
           |_ app.py # Flass Application
      |_ /var/ External resources
      |_ /env/ Environment Object
+
+
+
